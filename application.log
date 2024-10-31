@@ -1,0 +1,148 @@
+2024-10-30 03:17:53 - __main__ - DEBUG - Started configuration watcher.
+2024-10-30 03:17:53 - __main__ - INFO - CPU Usage: 4.6%
+2024-10-30 03:17:53 - __main__ - INFO - Memory Usage: 2.5%
+2024-10-30 03:17:53 - __main__ - INFO - Disk Usage: 1.8%
+2024-10-30 03:17:53 - __main__ - INFO - Starting Singular Value Decomposition
+2024-10-30 03:17:53 - __main__ - DEBUG - Singular Value Decomposition successful
+2024-10-30 03:17:53 - __main__ - INFO - Starting Chi-Square Test
+2024-10-30 03:17:53 - __main__ - DEBUG - Chi-Square Test successful
+2024-10-30 03:17:53 - __main__ - INFO - Starting Convex Hull Calculation
+2024-10-30 03:17:53 - __main__ - DEBUG - Convex Hull computation successful
+2024-10-30 03:17:53 - __main__ - INFO - Starting Logistic Regression Predictions
+2024-10-30 03:17:53 - __main__ - DEBUG - Logistic Regression prediction successful
+2024-10-30 03:17:53 - __main__ - INFO - Starting Main Optimization
+2024-10-30 03:17:54 - __main__ - INFO - Main Optimization Completed
+2024-10-30 03:17:54 - __main__ - INFO - CPU Usage: 0.3%
+2024-10-30 03:17:54 - __main__ - INFO - Memory Usage: 2.5%
+2024-10-30 03:17:54 - __main__ - INFO - Disk Usage: 1.8%
+2024-10-30 03:20:40 - __main__ - DEBUG - Calculated adaptive cache size: 344
+2024-10-30 03:20:40 - __main__ - DEBUG - Started configuration watcher.
+2024-10-30 03:20:40 - __main__ - INFO - CPU Usage: 4.8%
+2024-10-30 03:20:40 - __main__ - INFO - Memory Usage: 2.5%
+2024-10-30 03:20:40 - __main__ - INFO - Disk Usage: 1.8%
+2024-10-30 03:20:40 - __main__ - INFO - Starting Adaptive Parallel Processing
+2024-10-30 03:20:41 - __main__ - DEBUG - CPU Load: 0.1%, Using 2 threads for parallel processing
+2024-10-30 03:20:41 - __main__ - INFO - Adaptive Parallel Processing completed with 10 results
+2024-10-30 03:20:41 - __main__ - DEBUG - Sample Parallel Results: [np.float64(0.0), np.float64(1.7724538509055159), np.float64(7.0898154036220635), np.float64(15.952084658149642), np.float64(28.359261614488254)] ...
+2024-10-30 03:20:41 - __main__ - INFO - Starting Polymorphic Compute
+2024-10-30 03:20:41 - __main__ - CRITICAL - Unhandled exception in main_optimization: unhashable type: 'list'
+2024-10-30 03:24:27 - __main__ - DEBUG - Started configuration watcher.
+2024-10-30 03:24:27 - __main__ - INFO - CPU Usage: 4.8%
+2024-10-30 03:24:27 - __main__ - INFO - Memory Usage: 2.5%
+2024-10-30 03:24:27 - __main__ - INFO - Disk Usage: 1.8%
+2024-10-30 03:24:27 - __main__ - INFO - Starting Adaptive Parallel Processing
+2024-10-30 03:24:28 - __main__ - DEBUG - CPU Load: 0.0%, Using 2 threads for parallel processing
+2024-10-30 03:24:28 - __main__ - INFO - Adaptive Parallel Processing completed with 10 results
+2024-10-30 03:24:28 - __main__ - DEBUG - Sample Parallel Results: [np.float64(0.0), np.float64(1.7724538509055159), np.float64(7.0898154036220635), np.float64(15.952084658149642), np.float64(28.359261614488254)] ...
+2024-10-30 03:24:28 - __main__ - INFO - Starting Polymorphic Compute
+2024-10-30 03:24:28 - __main__ - DEBUG - polymorphic_compute successful with data type <class 'list'>
+2024-10-30 03:24:28 - __main__ - DEBUG - polymorphic_compute successful with data type <class 'dict'>
+2024-10-30 03:24:28 - __main__ - DEBUG - polymorphic_compute successful with data type <class 'numpy.ndarray'>
+2024-10-30 03:24:28 - __main__ - INFO - Polymorphic Compute (List): [0, 0, 0]
+2024-10-30 03:24:28 - __main__ - INFO - Polymorphic Compute (Dict): {'a': 0, 'b': 0, 'c': 0}
+2024-10-30 03:24:28 - __main__ - INFO - Polymorphic Compute (Array): [0 0 0]
+2024-10-30 03:24:28 - __main__ - INFO - Starting Nanomorphic Addition
+2024-10-30 03:24:28 - __main__ - INFO - Nanomorphic Add Result: 8
+2024-10-30 03:24:28 - __main__ - INFO - Starting Asynchronous Write Operation
+2024-10-30 03:24:28 - __main__ - DEBUG - Async write to test.bin completed with delay 0.0033166247903554 seconds
+2024-10-30 03:24:28 - __main__ - INFO - Asynchronous Write Operation Completed
+2024-10-30 03:24:28 - __main__ - INFO - Initializing In-Memory Database
+2024-10-30 03:24:28 - __main__ - INFO - In-memory SQLite database initialized successfully.
+2024-10-30 03:24:28 - __main__ - ERROR - Encryption failed: Fernet key must be 32 url-safe base64-encoded bytes.
+2024-10-30 03:24:28 - __main__ - ERROR - Failed to insert secure data: Fernet key must be 32 url-safe base64-encoded bytes.
+2024-10-30 03:24:28 - __main__ - INFO - Database Records: []
+2024-10-30 03:24:28 - __main__ - INFO - Starting Recursive Matrix Multiplication
+2024-10-30 03:24:28 - __main__ - ERROR - Recursive Matrix Multiplication failed: "Unrecognized options: {'recursive'}. Known options are dict_keys(['_dbg_extend_lifetimes', '_dbg_optnone', '_nrt', 'boundscheck', 'debug', 'error_model', 'fastmath', 'forceinline', 'forceobj', 'inline', 'looplift', 'no_cfunc_wrapper', 'no_cpython_wrapper', 'no_rewrites', 'nogil', 'nopython', 'parallel'])"
+2024-10-30 03:24:28 - __main__ - INFO - Starting Singular Value Decomposition
+2024-10-30 03:24:28 - __main__ - DEBUG - Singular Value Decomposition successful
+2024-10-30 03:24:28 - __main__ - INFO - Starting Chi-Square Test
+2024-10-30 03:24:28 - __main__ - DEBUG - Chi-Square Test successful
+2024-10-30 03:24:28 - __main__ - INFO - Starting Convex Hull Calculation
+2024-10-30 03:24:28 - __main__ - DEBUG - Convex Hull computation successful
+2024-10-30 03:24:28 - __main__ - INFO - Starting Logistic Regression Predictions
+2024-10-30 03:24:28 - __main__ - DEBUG - Logistic Regression prediction successful
+2024-10-30 03:24:28 - __main__ - INFO - Starting Main Optimization
+2024-10-30 03:24:29 - __main__ - INFO - Main Optimization Completed
+2024-10-30 03:24:29 - __main__ - INFO - CPU Usage: 0.9%
+2024-10-30 03:24:29 - __main__ - INFO - Memory Usage: 2.5%
+2024-10-30 03:24:29 - __main__ - INFO - Disk Usage: 1.8%
+2024-10-30 03:29:06 - __main__ - DEBUG - Started configuration watcher.
+2024-10-30 03:29:06 - __main__ - INFO - CPU Usage: 3.7%
+2024-10-30 03:29:06 - __main__ - INFO - Memory Usage: 2.5%
+2024-10-30 03:29:06 - __main__ - INFO - Disk Usage: 1.8%
+2024-10-30 03:29:06 - __main__ - INFO - Starting Adaptive Parallel Processing
+2024-10-30 03:29:07 - __main__ - DEBUG - CPU Load: 0.1%, Using 2 threads for parallel processing
+2024-10-30 03:29:07 - __main__ - INFO - Adaptive Parallel Processing completed with 10 results
+2024-10-30 03:29:07 - __main__ - DEBUG - Sample Parallel Results: [np.float64(0.0), np.float64(1.7724538509055159), np.float64(7.0898154036220635), np.float64(15.952084658149642), np.float64(28.359261614488254)] ...
+2024-10-30 03:29:07 - __main__ - INFO - Starting Polymorphic Compute
+2024-10-30 03:29:07 - __main__ - DEBUG - polymorphic_compute successful with data type <class 'list'>
+2024-10-30 03:29:07 - __main__ - DEBUG - polymorphic_compute successful with data type <class 'dict'>
+2024-10-30 03:29:07 - __main__ - DEBUG - polymorphic_compute successful with data type <class 'numpy.ndarray'>
+2024-10-30 03:29:07 - __main__ - INFO - Polymorphic Compute (List): [0, 0, 0]
+2024-10-30 03:29:07 - __main__ - INFO - Polymorphic Compute (Dict): {'a': 0, 'b': 0, 'c': 0}
+2024-10-30 03:29:07 - __main__ - INFO - Polymorphic Compute (Array): [0 0 0]
+2024-10-30 03:29:07 - __main__ - INFO - Starting Nanomorphic Addition
+2024-10-30 03:29:07 - __main__ - INFO - Nanomorphic Add Result: 8
+2024-10-30 03:29:07 - __main__ - INFO - Starting Asynchronous Write Operation
+2024-10-30 03:29:07 - __main__ - DEBUG - Async write to test.bin completed with delay 0.0033166247903554 seconds
+2024-10-30 03:29:07 - __main__ - INFO - Asynchronous Write Operation Completed
+2024-10-30 03:29:07 - __main__ - INFO - Initializing In-Memory Database
+2024-10-30 03:29:07 - __main__ - INFO - In-memory SQLite database initialized successfully.
+2024-10-30 03:29:07 - __main__ - ERROR - Encryption failed: Fernet key must be 32 url-safe base64-encoded bytes.
+2024-10-30 03:29:07 - __main__ - ERROR - Failed to insert secure data: Fernet key must be 32 url-safe base64-encoded bytes.
+2024-10-30 03:29:07 - __main__ - INFO - Database Records: []
+2024-10-30 03:29:07 - __main__ - INFO - Starting Recursive Matrix Multiplication
+2024-10-30 03:29:07 - __main__ - ERROR - Recursive Matrix Multiplication failed: "Unrecognized options: {'recursive'}. Known options are dict_keys(['_dbg_extend_lifetimes', '_dbg_optnone', '_nrt', 'boundscheck', 'debug', 'error_model', 'fastmath', 'forceinline', 'forceobj', 'inline', 'looplift', 'no_cfunc_wrapper', 'no_cpython_wrapper', 'no_rewrites', 'nogil', 'nopython', 'parallel'])"
+2024-10-30 03:29:07 - __main__ - INFO - Starting Singular Value Decomposition
+2024-10-30 03:29:07 - __main__ - DEBUG - Singular Value Decomposition successful
+2024-10-30 03:29:07 - __main__ - INFO - Starting Chi-Square Test
+2024-10-30 03:29:07 - __main__ - DEBUG - Chi-Square Test successful
+2024-10-30 03:29:07 - __main__ - INFO - Starting Convex Hull Calculation
+2024-10-30 03:29:07 - __main__ - DEBUG - Convex Hull computation successful
+2024-10-30 03:29:07 - __main__ - INFO - Starting Logistic Regression Predictions
+2024-10-30 03:29:07 - __main__ - DEBUG - Logistic Regression prediction successful
+2024-10-30 03:29:07 - __main__ - INFO - Starting Main Optimization
+2024-10-30 03:29:08 - __main__ - INFO - Main Optimization Completed
+2024-10-30 03:29:08 - __main__ - INFO - CPU Usage: 0.5%
+2024-10-30 03:29:08 - __main__ - INFO - Memory Usage: 2.5%
+2024-10-30 03:29:08 - __main__ - INFO - Disk Usage: 1.8%
+2024-10-30 03:32:28 - __main__ - DEBUG - Started configuration watcher.
+2024-10-30 03:32:28 - __main__ - INFO - CPU Usage: 4.7%
+2024-10-30 03:32:28 - __main__ - INFO - Memory Usage: 2.5%
+2024-10-30 03:32:28 - __main__ - INFO - Disk Usage: 1.8%
+2024-10-30 03:32:28 - __main__ - INFO - Starting Adaptive Parallel Processing
+2024-10-30 03:32:29 - __main__ - DEBUG - CPU Load: 0.1%, Using 2 threads for parallel processing
+2024-10-30 03:32:29 - __main__ - INFO - Adaptive Parallel Processing completed with 10 results
+2024-10-30 03:32:29 - __main__ - DEBUG - Sample Parallel Results: [np.float64(0.0), np.float64(1.7724538509055159), np.float64(7.0898154036220635), np.float64(15.952084658149642), np.float64(28.359261614488254)] ...
+2024-10-30 03:32:29 - __main__ - INFO - Starting Polymorphic Compute
+2024-10-30 03:32:29 - __main__ - DEBUG - polymorphic_compute successful with data type <class 'list'>
+2024-10-30 03:32:29 - __main__ - DEBUG - polymorphic_compute successful with data type <class 'dict'>
+2024-10-30 03:32:29 - __main__ - DEBUG - polymorphic_compute successful with data type <class 'numpy.ndarray'>
+2024-10-30 03:32:29 - __main__ - INFO - Polymorphic Compute (List): [0, 0, 0]
+2024-10-30 03:32:29 - __main__ - INFO - Polymorphic Compute (Dict): {'a': 0, 'b': 0, 'c': 0}
+2024-10-30 03:32:29 - __main__ - INFO - Polymorphic Compute (Array): [0 0 0]
+2024-10-30 03:32:29 - __main__ - INFO - Starting Nanomorphic Addition
+2024-10-30 03:32:29 - __main__ - INFO - Nanomorphic Add Result: 8
+2024-10-30 03:32:29 - __main__ - INFO - Starting Asynchronous Write Operation
+2024-10-30 03:32:29 - __main__ - DEBUG - Async write to test.bin completed with delay 0.0033166247903554 seconds
+2024-10-30 03:32:29 - __main__ - INFO - Asynchronous Write Operation Completed
+2024-10-30 03:32:29 - __main__ - INFO - Initializing In-Memory Database
+2024-10-30 03:32:29 - __main__ - INFO - In-memory SQLite database initialized successfully.
+2024-10-30 03:32:29 - __main__ - ERROR - Encryption failed: Fernet key must be 32 url-safe base64-encoded bytes.
+2024-10-30 03:32:29 - __main__ - ERROR - Failed to insert secure data: Fernet key must be 32 url-safe base64-encoded bytes.
+2024-10-30 03:32:29 - __main__ - INFO - Database Records: []
+2024-10-30 03:32:29 - __main__ - INFO - Starting Recursive Matrix Multiplication
+2024-10-30 03:32:29 - __main__ - ERROR - Recursive Matrix Multiplication failed: "Unrecognized options: {'recursive'}. Known options are dict_keys(['_dbg_extend_lifetimes', '_dbg_optnone', '_nrt', 'boundscheck', 'debug', 'error_model', 'fastmath', 'forceinline', 'forceobj', 'inline', 'looplift', 'no_cfunc_wrapper', 'no_cpython_wrapper', 'no_rewrites', 'nogil', 'nopython', 'parallel'])"
+2024-10-30 03:32:29 - __main__ - INFO - Starting Singular Value Decomposition
+2024-10-30 03:32:29 - __main__ - DEBUG - Singular Value Decomposition successful
+2024-10-30 03:32:29 - __main__ - INFO - Starting Chi-Square Test
+2024-10-30 03:32:29 - __main__ - DEBUG - Chi-Square Test successful
+2024-10-30 03:32:29 - __main__ - INFO - Starting Convex Hull Calculation
+2024-10-30 03:32:29 - __main__ - DEBUG - Convex Hull computation successful
+2024-10-30 03:32:29 - __main__ - INFO - Starting Logistic Regression Predictions
+2024-10-30 03:32:29 - __main__ - DEBUG - Logistic Regression prediction successful
+2024-10-30 03:32:29 - __main__ - INFO - Starting Main Optimization
+2024-10-30 03:32:30 - __main__ - INFO - Main Optimization Completed
+2024-10-30 03:32:30 - __main__ - INFO - CPU Usage: 0.6%
+2024-10-30 03:32:30 - __main__ - INFO - Memory Usage: 2.5%
+2024-10-30 03:32:30 - __main__ - INFO - Disk Usage: 1.8%

@@ -1,0 +1,18 @@
+# Configuration Parameters
+
+# File paths
+file_path: 'test.bin'
+database: ':memory:'
+
+# Data sizes
+data_size: 1000
+matrix_size: 4
+svd_matrix_size: 10
+
+logging:
+  level: DEBUG
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  datefmt: '%Y-%m-%d %H:%M:%S'
+database: ':memory:'
+secret_key: 'default_key'
+encryption_key: ''
