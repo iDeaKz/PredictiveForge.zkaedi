@@ -9,10 +9,12 @@ data_size: 1000
 matrix_size: 4
 svd_matrix_size: 10
 
+# Logging configuration
 logging:
   level: DEBUG
   format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
   datefmt: '%Y-%m-%d %H:%M:%S'
-database: ':memory:'
+
+# Security parameters
 secret_key: 'default_key'
 encryption_key: ''
