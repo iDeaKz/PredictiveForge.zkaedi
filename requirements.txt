@@ -2,3 +2,6 @@ joblib
 numpy
 scikit-learn
 psutil
+aiofiles
+sqlite3
+dependency-injector

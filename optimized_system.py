@@ -14,6 +14,8 @@ from scipy.spatial import ConvexHull
 from scipy.stats import chi2_contingency
 from sklearn.linear_model import LogisticRegression
 import asyncio
+import logging
+from dependency_injector import containers, providers
 
 # -------------------------------------------------
 # Adaptive Cache Size Calculation
@@ -146,6 +148,14 @@ def chi_square_test(observed: np.ndarray) -> Tuple[float, float, int, np.ndarray
     return chi2, p, dof, expected
 
 # -------------------------------------------------
+# Dependency Injection Container
+# -------------------------------------------------
+class Container(containers.DeclarativeContainer):
+    config = providers.Configuration()
+    encryption_key = providers.Singleton(str, config.encryption_key)
+    secret_key = providers.Singleton(str, config.secret_key)
+
+# -------------------------------------------------
 # Main Optimization Function
 # -------------------------------------------------
 async def main_optimization() -> None:
@@ -200,8 +210,57 @@ async def main_optimization() -> None:
     predictions = logistic_regression_predict(X_train, y_train, X_test)
     print("Logistic Regression Predictions:", predictions)
 
+    # Validate encryption_key and secret_key
+    container = Container()
+    container.config.from_dict({
+        'encryption_key': 'Pb961_valid_encryption_key',
+        'secret_key': 'P9fff_secure_key'
+    })
+
+    encryption_key = container.encryption_key()
+    secret_key = container.secret_key()
+
+    if len(encryption_key) == 32:
+        logging.info("Encryption key is valid.")
+    else:
+        logging.error("Invalid encryption key length.")
+
+    if len(secret_key) >= 8:
+        logging.info("Secret key is valid.")
+    else:
+        logging.error("Invalid secret key length.")
+
+# -------------------------------------------------
+# Check if System is Runnable
+# -------------------------------------------------
+def is_system_runnable() -> bool:
+    """Check if the system is runnable by validating essential configurations."""
+    container = Container()
+    container.config.from_dict({
+        'encryption_key': 'Pb961_valid_encryption_key',
+        'secret_key': 'P9fff_secure_key'
+    })
+
+    encryption_key = container.encryption_key()
+    secret_key = container.secret_key()
+
+    if len(encryption_key) != 32:
+        logging.error("System is not runnable: Invalid encryption key length.")
+        return False
+
+    if len(secret_key) < 8:
+        logging.error("System is not runnable: Invalid secret key length.")
+        return False
+
+    logging.info("System is runnable.")
+    return True
+
 # -------------------------------------------------
 # Run the Main Function
 # -------------------------------------------------
 if __name__ == "__main__":
-    asyncio.run(main_optimization())
+    logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    if is_system_runnable():
+        asyncio.run(main_optimization())
+    else:
+        logging.error("System is not runnable. Please check the configuration.")

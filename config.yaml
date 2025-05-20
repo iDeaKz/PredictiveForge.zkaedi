@@ -16,5 +16,5 @@ logging:
   datefmt: '%Y-%m-%d %H:%M:%S'
 
 # Security parameters
-secret_key: 'default_key'
-encryption_key: ''
+secret_key: 'P9fff_secure_key'
+encryption_key: 'Pb961_valid_encryption_key'
